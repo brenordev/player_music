@@ -1,0 +1,19 @@
+@use '../abstract/variables' as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+span{
+    color: $color-white;
+}
+.display__name-music--text{
+    padding: 1rem;
+    color: rgba($terciary-color, .8);
+    background-color: rgba($terciary-color, .05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
